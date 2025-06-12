@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "topheth:block/immolated_glowstone_side",
+    "down": "topheth:block/immolated_glowstone_bottom",
+    "up": "topheth:block/immolated_glowstone_top",
+    "north": "topheth:block/immolated_glowstone_side",
+    "east": "topheth:block/immolated_glowstone_side",
+    "south": "topheth:block/immolated_glowstone_side",
+    "west": "topheth:block/immolated_glowstone_side"
+  }
+}

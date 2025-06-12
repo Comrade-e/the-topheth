@@ -1,0 +1,28 @@
+{
+  "multipart": [
+    {
+      "when": { "axis": "x", "entrance": false },
+      "apply": {
+        "model": "topheth:block/portal_exit_ew"
+      }
+    },
+    {
+      "when": { "axis": "x", "entrance": true },
+      "apply": {
+        "model": "topheth:block/portal_entrance_ew"
+      }
+    },
+    {
+      "when": { "axis": "z", "entrance": false },
+      "apply": {
+        "model": "topheth:block/portal_exit_ns"
+      }
+    },
+    {
+      "when": { "axis": "z", "entrance": true },
+      "apply": {
+        "model": "topheth:block/portal_entrance_ns"
+      }
+    }
+  ]
+}

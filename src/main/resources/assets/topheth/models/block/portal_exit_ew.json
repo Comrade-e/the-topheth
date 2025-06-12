@@ -1,0 +1,15 @@
+{
+  "textures": {
+    "particle": "topheth:block/portal_exit",
+    "portal": "topheth:block/portal_exit"
+  },
+  "elements": [
+    {   "from": [ 6, 0, 0 ],
+      "to": [ 10, 16, 16 ],
+      "faces": {
+        "east": { "uv": [ 0, 0, 16, 16 ], "texture": "topheth:block/portal_exit" },
+        "west": { "uv": [ 0, 0, 16, 16 ], "texture": "topheth:block/portal_exit" }
+      }
+    }
+  ]
+}
