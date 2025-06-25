@@ -3,7 +3,6 @@ package test.thetopheth.topheth.blocks;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.PushReaction;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -31,6 +30,7 @@ public class Stones {
                         .sound(SoundType.STONE)
                         .pushReaction(PushReaction.NORMAL)
                         .isRedstoneConductor((state, world, pos) -> true)
+                        .requiresCorrectToolForDrops()
                 )));
 
         TOPHETH_STONE_ITEM = ITEMS.registerSimpleBlockItem("topheth_stone"
@@ -47,6 +47,7 @@ public class Stones {
                                 .sound(SoundType.STONE)
                                 .pushReaction(PushReaction.NORMAL)
                                 .isRedstoneConductor((state, world, pos) -> true)
+                                .requiresCorrectToolForDrops()
                 ));
         TOPHETH_STONE_BRICKS_ITEM = ITEMS.registerSimpleBlockItem("topheth_stone_bricks"
                 , TOPHETH_STONE_BRICKS);
